@@ -11,7 +11,7 @@ import ProfileScreen from '../screens/Profile'
 import PostScreen from '../screens/Post'
 import CameraScreen from '../screens/Camera'
 import Ionicons from 'react-native-vector-icons/Ionicons';
-
+Ionicons.loadFont();
 export const HomeNavigator = createAppContainer(createStackNavigator(
     {
         Home: {

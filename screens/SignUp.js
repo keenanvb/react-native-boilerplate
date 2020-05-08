@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { register } from '../actions'
 import * as Animatable from 'react-native-animatable'
 import Feather from 'react-native-vector-icons/Feather';
-
+Feather.loadFont()
 const SignUp = ({ auth, navigation, register }) => {
 
     const [signUpData, setSignUpData] = useState({

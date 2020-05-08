@@ -4,7 +4,7 @@ import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { HomeNavigator, SearchNavigator, ProfileNavigator, ActivityNavigator, PostNavigator } from './StackNavigator'
-
+Icon.loadFont()
 const TabNavigator = createBottomTabNavigator({
     Home: {
         screen: HomeNavigator,

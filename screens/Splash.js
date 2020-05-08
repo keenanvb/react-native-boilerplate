@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, StatusBar, Dimensions, TouchableOpacity } from 
 import * as Animatable from 'react-native-animatable'
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-
+Ionicons.loadFont();
 const Splash = ({ navigation }) => {
 
     const { container, header, footer, logo, title, text, button, signIn, textSignIn } = styles

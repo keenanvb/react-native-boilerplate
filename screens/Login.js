@@ -5,7 +5,7 @@ import { login, getUser } from '../actions/index'
 import Feather from 'react-native-vector-icons/Feather';
 import LinearGradient from 'react-native-linear-gradient';
 import * as Animatable from 'react-native-animatable'
-
+Feather.loadFont();
 const Login = ({ auth, getUser, navigation, login }) => {
 
     const [formData, setFormData] = useState({
